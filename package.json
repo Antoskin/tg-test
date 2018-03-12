@@ -1,0 +1,31 @@
+{
+  "name": "tg-test",
+  "version": "1.0.0",
+  "description": "test work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rush": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antoskin/tg-test.git"
+  },
+  "author": "ant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Antoskin/tg-test/issues"
+  },
+  "homepage": "https://github.com/Antoskin/tg-test#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.10"
+  },
+  "dependencies": {
+    "animate.css": "^3.6.1",
+    "gsap": "^1.20.4",
+    "jquery": "^3.3.1"
+  }
+}
